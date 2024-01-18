@@ -1,1 +1,1 @@
-If you are reading this, I'm genius
+If you are reading this, I'm smart
