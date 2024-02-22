@@ -1,0 +1,8 @@
+[Unit]
+Description=My Python Script
+
+[Service]
+ExecStart=/usr/bin/python3 /home/jxw411/cpsc222/app.py
+
+[Install]
+WantedBy=multi-user.target
