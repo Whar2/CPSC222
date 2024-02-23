@@ -46,11 +46,11 @@ def get_groups():
         return 'Error: ' + str(e)
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=3000)
+    app.run(host='192.168.0.36', port=3000)
 
 
 
-# curl -X POST -u test:abcABC123 http://localhost:3000/api/users
+# curl -X POST -u test:abcABC123 http://192.168.0.36:3000/api/users
 
-# curl -X POST -u test:abcABC123 http://localhost:3000/api/groups
+# curl -X POST -u test:abcABC123 http://192.168.0.36:3000/api/groups
 
