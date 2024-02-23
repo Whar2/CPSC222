@@ -1,8 +1,13 @@
+# /home/jxw411/.config/systemd/user/python_api.service
+
 [Unit]
-Description=My Python Script
+Description=Script for users and groups
 
 [Service]
 ExecStart=/usr/bin/python3 /home/jxw411/cpsc222/app.py
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
+
+
+
