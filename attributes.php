@@ -4,8 +4,8 @@ error_reporting(E_ALL);
 
 ini_set('display_errors', 1);
 
-require_once('Student.php');
-require_once('Letter_grade.php');
+require_once('student.php');
+require_once('letter_grade.php');
 
 // Create students array
 $students = array();
